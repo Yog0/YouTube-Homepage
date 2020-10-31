@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9F9F9;
+}
+
+li {
+    display: inline;
+    padding: 0 1em;
+    font-size: 14px;
+}
+li a {
+    color: black;
+    font-weight: 400;
+}
+
+a .nav-link {
+    color: black;
+    font-weight: 400;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+ul {
+    padding-left: 0;
+}
+.searchbar {
+    padding: 12px; 
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: #dfe1e5;
+    width: fit-content;
+}
+
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+    padding: 0 1em;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.nav:hover{
+    text-decoration: underline;
+}
+
+.menu {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.container navbar {
+    margin: 0px 0px;
+}
+
+.navbar a {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color: black;
+}
+
+.page-body {
+    display: grid;
+    grid-template-columns: [line1] 70% [line2] 30%;
+    grid-template-rows: [row1] 70% [row2] 30%;
+    margin-top: 3rem;
+    background-color: #F9F9F9;
+}
+.player-area {
+    
+/*     grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2; */
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    margin-left: 10%;
+}
+.sidebar {
+    background-color: purple;
+/*     grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2; */
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
